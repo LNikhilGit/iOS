@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8BB53272B0EB517008BF6C4 /* CardviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB53262B0EB517008BF6C4 /* CardviewApp.swift */; };
+		C8BB53292B0EB517008BF6C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB53282B0EB517008BF6C4 /* ContentView.swift */; };
+		C8BB532B2B0EB518008BF6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BB532A2B0EB518008BF6C4 /* Assets.xcassets */; };
+		C8BB532E2B0EB518008BF6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BB532D2B0EB518008BF6C4 /* Preview Assets.xcassets */; };
+		C8BB53382B0EB518008BF6C4 /* CardviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB53372B0EB518008BF6C4 /* CardviewTests.swift */; };
+		C8BB53422B0EB518008BF6C4 /* CardviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB53412B0EB518008BF6C4 /* CardviewUITests.swift */; };
+		C8BB53442B0EB518008BF6C4 /* CardviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB53432B0EB518008BF6C4 /* CardviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8BB53342B0EB518008BF6C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BB531B2B0EB517008BF6C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8BB53222B0EB517008BF6C4;
+			remoteInfo = Cardview;
+		};
+		C8BB533E2B0EB518008BF6C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BB531B2B0EB517008BF6C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8BB53222B0EB517008BF6C4;
+			remoteInfo = Cardview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8BB53232B0EB517008BF6C4 /* Cardview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BB53262B0EB517008BF6C4 /* CardviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewApp.swift; sourceTree = "<group>"; };
+		C8BB53282B0EB517008BF6C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8BB532A2B0EB518008BF6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8BB532D2B0EB518008BF6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8BB53332B0EB518008BF6C4 /* CardviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BB53372B0EB518008BF6C4 /* CardviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewTests.swift; sourceTree = "<group>"; };
+		C8BB533D2B0EB518008BF6C4 /* CardviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BB53412B0EB518008BF6C4 /* CardviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewUITests.swift; sourceTree = "<group>"; };
+		C8BB53432B0EB518008BF6C4 /* CardviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8BB53202B0EB517008BF6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB53302B0EB518008BF6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB533A2B0EB518008BF6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8BB531A2B0EB517008BF6C4 = {
+			isa = PBXGroup;
+			children = (
+				C8BB53252B0EB517008BF6C4 /* Cardview */,
+				C8BB53362B0EB518008BF6C4 /* CardviewTests */,
+				C8BB53402B0EB518008BF6C4 /* CardviewUITests */,
+				C8BB53242B0EB517008BF6C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8BB53242B0EB517008BF6C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8BB53232B0EB517008BF6C4 /* Cardview.app */,
+				C8BB53332B0EB518008BF6C4 /* CardviewTests.xctest */,
+				C8BB533D2B0EB518008BF6C4 /* CardviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8BB53252B0EB517008BF6C4 /* Cardview */ = {
+			isa = PBXGroup;
+			children = (
+				C8BB53262B0EB517008BF6C4 /* CardviewApp.swift */,
+				C8BB53282B0EB517008BF6C4 /* ContentView.swift */,
+				C8BB532A2B0EB518008BF6C4 /* Assets.xcassets */,
+				C8BB532C2B0EB518008BF6C4 /* Preview Content */,
+			);
+			path = Cardview;
+			sourceTree = "<group>";
+		};
+		C8BB532C2B0EB518008BF6C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8BB532D2B0EB518008BF6C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8BB53362B0EB518008BF6C4 /* CardviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BB53372B0EB518008BF6C4 /* CardviewTests.swift */,
+			);
+			path = CardviewTests;
+			sourceTree = "<group>";
+		};
+		C8BB53402B0EB518008BF6C4 /* CardviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BB53412B0EB518008BF6C4 /* CardviewUITests.swift */,
+				C8BB53432B0EB518008BF6C4 /* CardviewUITestsLaunchTests.swift */,
+			);
+			path = CardviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8BB53222B0EB517008BF6C4 /* Cardview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BB53472B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "Cardview" */;
+			buildPhases = (
+				C8BB531F2B0EB517008BF6C4 /* Sources */,
+				C8BB53202B0EB517008BF6C4 /* Frameworks */,
+				C8BB53212B0EB517008BF6C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardview;
+			productName = Cardview;
+			productReference = C8BB53232B0EB517008BF6C4 /* Cardview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8BB53322B0EB518008BF6C4 /* CardviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BB534A2B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "CardviewTests" */;
+			buildPhases = (
+				C8BB532F2B0EB518008BF6C4 /* Sources */,
+				C8BB53302B0EB518008BF6C4 /* Frameworks */,
+				C8BB53312B0EB518008BF6C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8BB53352B0EB518008BF6C4 /* PBXTargetDependency */,
+			);
+			name = CardviewTests;
+			productName = CardviewTests;
+			productReference = C8BB53332B0EB518008BF6C4 /* CardviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8BB533C2B0EB518008BF6C4 /* CardviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BB534D2B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "CardviewUITests" */;
+			buildPhases = (
+				C8BB53392B0EB518008BF6C4 /* Sources */,
+				C8BB533A2B0EB518008BF6C4 /* Frameworks */,
+				C8BB533B2B0EB518008BF6C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8BB533F2B0EB518008BF6C4 /* PBXTargetDependency */,
+			);
+			name = CardviewUITests;
+			productName = CardviewUITests;
+			productReference = C8BB533D2B0EB518008BF6C4 /* CardviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BB531B2B0EB517008BF6C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C8BB53222B0EB517008BF6C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C8BB53322B0EB518008BF6C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C8BB53222B0EB517008BF6C4;
+					};
+					C8BB533C2B0EB518008BF6C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C8BB53222B0EB517008BF6C4;
+					};
+				};
+			};
+			buildConfigurationList = C8BB531E2B0EB517008BF6C4 /* Build configuration list for PBXProject "Cardview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8BB531A2B0EB517008BF6C4;
+			productRefGroup = C8BB53242B0EB517008BF6C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8BB53222B0EB517008BF6C4 /* Cardview */,
+				C8BB53322B0EB518008BF6C4 /* CardviewTests */,
+				C8BB533C2B0EB518008BF6C4 /* CardviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8BB53212B0EB517008BF6C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BB532E2B0EB518008BF6C4 /* Preview Assets.xcassets in Resources */,
+				C8BB532B2B0EB518008BF6C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB53312B0EB518008BF6C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB533B2B0EB518008BF6C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8BB531F2B0EB517008BF6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BB53292B0EB517008BF6C4 /* ContentView.swift in Sources */,
+				C8BB53272B0EB517008BF6C4 /* CardviewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB532F2B0EB518008BF6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BB53382B0EB518008BF6C4 /* CardviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BB53392B0EB518008BF6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BB53442B0EB518008BF6C4 /* CardviewUITestsLaunchTests.swift in Sources */,
+				C8BB53422B0EB518008BF6C4 /* CardviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8BB53352B0EB518008BF6C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8BB53222B0EB517008BF6C4 /* Cardview */;
+			targetProxy = C8BB53342B0EB518008BF6C4 /* PBXContainerItemProxy */;
+		};
+		C8BB533F2B0EB518008BF6C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8BB53222B0EB517008BF6C4 /* Cardview */;
+			targetProxy = C8BB533E2B0EB518008BF6C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8BB53452B0EB518008BF6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8BB53462B0EB518008BF6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8BB53482B0EB518008BF6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Cardview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8BB53492B0EB518008BF6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Cardview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8BB534B2B0EB518008BF6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CardviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardview";
+			};
+			name = Debug;
+		};
+		C8BB534C2B0EB518008BF6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CardviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardview";
+			};
+			name = Release;
+		};
+		C8BB534E2B0EB518008BF6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CardviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardview;
+			};
+			name = Debug;
+		};
+		C8BB534F2B0EB518008BF6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.CardviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8BB531E2B0EB517008BF6C4 /* Build configuration list for PBXProject "Cardview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BB53452B0EB518008BF6C4 /* Debug */,
+				C8BB53462B0EB518008BF6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BB53472B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "Cardview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BB53482B0EB518008BF6C4 /* Debug */,
+				C8BB53492B0EB518008BF6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BB534A2B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "CardviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BB534B2B0EB518008BF6C4 /* Debug */,
+				C8BB534C2B0EB518008BF6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BB534D2B0EB518008BF6C4 /* Build configuration list for PBXNativeTarget "CardviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BB534E2B0EB518008BF6C4 /* Debug */,
+				C8BB534F2B0EB518008BF6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BB531B2B0EB517008BF6C4 /* Project object */;
+}
